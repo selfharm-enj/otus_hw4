@@ -43,6 +43,7 @@ func main() {
 			board.WriteString("\n")
 		}
 	}
+	board.WriteString(" abcdefgh\n")
 	fmt.Fprintln(&board, *p1)
 	fmt.Println(board.String())
 }
